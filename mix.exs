@@ -33,15 +33,15 @@ defmodule Wordcharts.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "1.8.15"},
+      {:phoenix, "1.8.17"},
       {:phoenix_ecto, "4.7.0"},
       {:ecto_sql, "3.14.0"},
       {:postgrex, "0.22.4"},
-      {:phoenix_html, "4.3.0"},
+      {:phoenix_html, "4.4.0"},
       {:phoenix_html_helpers, "~> 1.0"},
       {:phoenix_view, "2.0.4"},
       {:phoenix_live_reload, "1.6.2", only: :dev},
-      {:phoenix_live_view, "1.2.12"},
+      {:phoenix_live_view, "1.2.14"},
       {:lazy_html, "0.1.13", only: :test},
       {:phoenix_live_dashboard, "0.8.7"},
       {:esbuild, "0.10.0", runtime: Mix.env() == :dev},
